@@ -1,6 +1,8 @@
 # ssh-key
 The ssh key create and access.<br>
 記錄下來，浪費了大半時間的慘痛經驗。<br>
+You can command the following after finish the ssh key Authentication.<br> 
+$ git remote set-url origin git@github.com:{user_id}/{project_name}.git <br>
 ![image](https://github.com/peaceian/ssh-key/blob/main/githubsshkey.png)
 ![image](https://github.com/peaceian/ssh-key/blob/main/githubsshkeycmd.png)<br>
 做完sla ssh key 之後，push才知道目前不使用這種key，白做工。<br>
